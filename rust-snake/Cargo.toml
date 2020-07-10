@@ -1,0 +1,11 @@
+[package]
+authors = ["Juan Lescano"]
+edition = "2018"
+name = "rust-snake"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gl = {version = "0.14.0"}
+sdl2 = {version = "0.34.2", features = ["bundled", "static-link"]}
